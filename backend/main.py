@@ -8,11 +8,12 @@ from models import Todo
 from schemas import CreateTodoRequest
 
 
+
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # The origin of the frontend app
+    allow_origins=["todo-backend-production-12b1.up.railway.app"],  # The origin of the frontend app
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
