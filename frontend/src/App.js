@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const baseUrl = "todo-backend-production-12b1.up.railway.app"
+const baseUrl = "https:/todo-backend-production-12b1.up.railway.app"
 
 
 const TodoApp = () => {
